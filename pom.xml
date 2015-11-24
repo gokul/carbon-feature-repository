@@ -62,7 +62,9 @@
         <carbon.analytics.common.version.1.0.1>1.0.1</carbon.analytics.common.version.1.0.1>
         <carbon.analytics.common.version.5.0.2>5.0.2</carbon.analytics.common.version.5.0.2>
         <carbon.analytics-common.version.5.0.3>5.0.3</carbon.analytics-common.version.5.0.3>
+        <carbon.analytics.common.version.5.0.6>5.0.6</carbon.analytics.common.version.5.0.6>
         <carbon.analytics.version.1.0.3>1.0.3</carbon.analytics.version.1.0.3>
+        <carbon.analytics.version.1.0.4>1.0.4</carbon.analytics.version.1.0.4>
         <carbon.apimgt.feature.version.1.3.3>1.3.3</carbon.apimgt.feature.version.1.3.3>
         <carbon.apimgt.version.2.0.0>2.0.0</carbon.apimgt.version.2.0.0>
         <carbon.apimgt.version.2.0.1>2.0.1</carbon.apimgt.version.2.0.1>
@@ -71,17 +73,22 @@
         <carbon.commons.version.4.4.6>4.4.6</carbon.commons.version.4.4.6>
         <carbon.commons.version.4.4.7>4.4.7</carbon.commons.version.4.4.7>
         <carbon.commons.version.4.4.8>4.4.8</carbon.commons.version.4.4.8>
+        <carbon.dashboards.version.1.0.0>1.0.0</carbon.dashboards.version.1.0.0>
         <carbon.dashboards.version.1.0.2>1.0.2</carbon.dashboards.version.1.0.2>
+        <carbon.dashboards.version.1.0.7>1.0.7</carbon.dashboards.version.1.0.7>
         <carbon.data.version.4.3.1>4.3.1</carbon.data.version.4.3.1>
+        <carbon.data.version.4.3.2>4.3.2</carbon.data.version.4.3.2>
         <carbon.data.version.4.3.4>4.3.4</carbon.data.version.4.3.4>
         <carbon.deployment.version.4.4.1>4.4.1</carbon.deployment.version.4.4.1>
         <carbon.deployment.version.4.5.2>4.5.2</carbon.deployment.version.4.5.2>
         <carbon.deployment.version.4.5.3>4.5.3</carbon.deployment.version.4.5.3>
         <carbon.event-processing.version.2.0.6>2.0.6</carbon.event-processing.version.2.0.6>
+        <carbon.event-processing.version.2.0.9>2.0.9</carbon.event-processing.version.2.0.9>
         <carbon.feature.version.1.0.0>1.0.0</carbon.feature.version.1.0.0>
         <carbon.feature.version.1.2.0>1.2.0</carbon.feature.version.1.2.0>
         <carbon.feature.version.1.4.0>1.4.0</carbon.feature.version.1.4.0>
         <carbon.feature.version.1.4.2>1.4.2</carbon.feature.version.1.4.2>
+        <carbon.feature.version.1.4.3>1.4.3</carbon.feature.version.1.4.3>
         <carbon.feature.version.1.4.4>1.4.4</carbon.feature.version.1.4.4>
         <carbon.governance.version.4.5.2>4.5.2</carbon.governance.version.4.5.2>
         <carbon.governance.version.4.5.8>4.5.8</carbon.governance.version.4.5.8>
@@ -122,6 +129,7 @@
         <handlebars.feature.version.1.4.4>1.4.4</handlebars.feature.version.1.4.4>
         <i18n.feature.version.1.2.0>1.2.0</i18n.feature.version.1.2.0>
         <i18n.feature.version.1.4.0>1.4.0</i18n.feature.version.1.4.0>
+        <i18n.feature.version.1.4.3>1.4.3</i18n.feature.version.1.4.3>
         <i18n.feature.version.1.4.4>1.4.4</i18n.feature.version.1.4.4>
         <jaggery-test.feature.version.1.2.2>1.2.2</jaggery-test.feature.version.1.2.2>
         <jaggery-test.feature.version.1.4.0>1.4.0</jaggery-test.feature.version.1.4.0>
@@ -137,9 +145,11 @@
         <process.feature.version.1.2.0>1.2.0</process.feature.version.1.2.0>
         <process.feature.version.1.4.0>1.4.0</process.feature.version.1.4.0>
         <process.feature.version.1.4.2>1.4.2</process.feature.version.1.4.2>
+        <process.feature.version.1.4.3>1.4.3</process.feature.version.1.4.3>
         <process.feature.version.1.4.4>1.4.4</process.feature.version.1.4.4>
         <product.as.version.5.3.0>5.3.0</product.as.version.5.3.0>
         <product.cep.version.4.0.0>4.0.0</product.cep.version.4.0.0>
+        <product.das.version.3.0.0>3.0.0</product.das.version.3.0.0>
         <product.esb.version.4.9.0>4.9.0</product.esb.version.4.9.0>
         <product.greg.version.5.0.0>5.0.0</product.greg.version.5.0.0>
         <product.greg.version.5.0.1>5.0.1</product.greg.version.5.0.1>
@@ -223,6 +233,9 @@
                                     org.jaggeryjs.modules:carbon.feature:${carbon.feature.version.1.4.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.jaggeryjs.modules:carbon.feature:${carbon.feature.version.1.4.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.jaggeryjs.modules:carbon.feature:${carbon.feature.version.1.4.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -245,6 +258,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:i18n.feature:${i18n.feature.version.1.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.jaggeryjs.modules:i18n.feature:${i18n.feature.version.1.4.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:i18n.feature:${i18n.feature.version.1.4.4}
@@ -278,6 +294,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:process.feature:${process.feature.version.1.4.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.jaggeryjs.modules:process.feature:${process.feature.version.1.4.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:process.feature:${process.feature.version.1.4.4}
@@ -360,16 +379,58 @@
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.activitydashboard.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.api.client.feature:${carbon.analytics.version.1.0.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.api.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.core.feature:${carbon.analytics.version.1.0.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                      org.wso2.carbon.analytics:org.wso2.carbon.analytics.core.server.feature:${carbon.analytics.version.1.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.dashboard.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                      org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.feature:${carbon.analytics.version.1.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.eventsink.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.eventtable.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.jsservice.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.messageconsole.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.message.tracer.handler.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.restapi.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                      org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.server.feature:${carbon.analytics.version.1.0.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.stream.persistence.server.feature:${carbon.analytics.version.1.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.webservice.feature:${carbon.analytics.version.1.0.4}
                                 </featureArtifactDef>
                                 
                                 <featureArtifactDef>
@@ -380,19 +441,34 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.common.jmx.agent.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.common.jmx.agent.feature:${carbon.analytics.common.version.5.0.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.dashboard.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.datapublisher.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.datapublisher.feature:${carbon.analytics.common.version.5.0.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.datareceiver.feature:${carbon.analytics-common.version.5.0.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.datareceiver.feature:${carbon.analytics.common.version.5.0.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.streamdefn.filesystem.server.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.streamdefn.filesystem.server.feature:${carbon.analytics.common.version.5.0.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.application.deployer.feature:${carbon.analytics-common.version.5.0.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.application.deployer.feature:${carbon.analytics.common.version.5.0.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.email.server.feature:${carbon.analytics.common.version.5.0.2}
@@ -407,25 +483,49 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.processor.manager.core.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.processor.manager.core.feature:${carbon.analytics.common.version.5.0.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.processor.manager.commons.feature:${carbon.analytics-common.version.5.0.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.processor.manager.commons.feature:${carbon.analytics.common.version.5.0.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.feature:${carbon.analytics.common.version.5.0.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.receiver.feature:${carbon.analytics-common.version.5.0.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.receiver.feature:${carbon.analytics.common.version.5.0.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.tracer.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.tracer.feature:${carbon.analytics.common.version.5.0.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.statistics.feature:${carbon.analytics-common.version.5.0.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.statistics.feature:${carbon.analytics.common.version.5.0.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.stream.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.stream.feature:${carbon.analytics.common.version.5.0.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                      org.wso2.carbon.analytics-common:org.wso2.carbon.spark.commons.feature:${carbon.analytics.common.version.5.0.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.spark.commons.feature:${carbon.analytics.common.version.5.0.6}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -469,6 +569,9 @@
                                     org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.feature:${carbon.commons.version.4.4.8}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.git.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -499,6 +602,9 @@
                                     org.wso2.carbon.commons:org.wso2.carbon.event.server.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.event.server.feature:${carbon.commons.version.4.4.8}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.event.ui.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -524,6 +630,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.ndatasource.feature:${carbon.commons.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.ndatasource.feature:${carbon.commons.version.4.4.8}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.ndatasource.ui.feature:${carbon.commons.version.4.4.7}
@@ -626,6 +735,12 @@
                                     org.wso2.carbon.dashboards:org.wso2.carbon.dashboards.portal.feature:${carbon.dashboards.version.1.0.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.dashboards:org.wso2.carbon.dashboards.portal.feature:${carbon.dashboards.version.1.0.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.dashboards:org.wso2.carbon.dashboards.shindig.feature:${carbon.dashboards.version.1.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.dashboards:org.wso2.carbon.dashboards.shindig.feature:${carbon.dashboards.version.1.0.2}
                                 </featureArtifactDef>
 
@@ -650,12 +765,17 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices.task.ui.feature:${carbon.data.version.4.3.4}
                                 </featureArtifactDef>
-
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.datasource.reader.cassandra.server.feature:${carbon.data.version.4.3.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.datasource.reader.cassandra.server.feature:${carbon.data.version.4.3.2}
+                                </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.datasource.reader.hadoop.server.feature:${carbon.data.version.4.3.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.data:org.wso2.carbon.datasource.reader.cassandra.server.feature:${carbon.data.version.4.3.1}
+                                    org.wso2.carbon.data:org.wso2.carbon.datasource.reader.hadoop.server.feature:${carbon.data.version.4.3.2}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -744,16 +864,31 @@
                                     org.wso2.carbon.event-processing:org.wso2.carbon.event.execution.manager.feature:${carbon.event-processing.version.2.0.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.event-processing:org.wso2.carbon.event.execution.manager.feature:${carbon.event-processing.version.2.0.9}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.event-processing:org.wso2.carbon.event.flow.feature:${carbon.event-processing.version.2.0.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.event-processing:org.wso2.carbon.event.flow.feature:${carbon.event-processing.version.2.0.9}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.event-processing:org.wso2.carbon.event.processor.feature:${carbon.event-processing.version.2.0.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.event-processing:org.wso2.carbon.event.processor.feature:${carbon.event-processing.version.2.0.9}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.event-processing:org.wso2.carbon.event.simulator.feature:${carbon.event-processing.version.2.0.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.event-processing:org.wso2.carbon.event.simulator.feature:${carbon.event-processing.version.2.0.9}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.event-processing:org.wso2.carbon.siddhi.tryit.feature:${carbon.event-processing.version.2.0.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.event-processing:org.wso2.carbon.siddhi.tryit.feature:${carbon.event-processing.version.2.0.9}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -1439,6 +1574,13 @@
 
                                 <featureArtifactDef>
                                     org.wso2.ciphertool:org.wso2.ciphertool.feature:${cipher.tool.version.1.0.0v3}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>
+                                    org.wso2.das:org.wso2.das.multitenancy.dashboard.ui.feature:${product.das.version.3.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.das:org.wso2.das.styles.feature:${product.das.version.3.0.0}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
